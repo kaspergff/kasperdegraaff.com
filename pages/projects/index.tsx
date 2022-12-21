@@ -17,7 +17,7 @@ const projects: ProjectType[] = [
   {
     name: "SolTweet",
     description:
-      "A twitter clone build on the Solana blockchain. I build this project to learn a bit about web3 development. The smartcontract is written in Rust an deployed on the Solana blockchain. The frontend is build with Next Js and Tailwind css. You can create a tweet, like a tweet and send SOL to another user.",
+      "A twitter clone build on the Solana blockchain. I build this project to learn a bit about web3 development. The smartcontract is written in Rust and deployed on the Solana blockchain. The frontend is build with Next Js and Tailwind css. You can create a tweet, like a tweet and send SOL to another user.",
     url: "https://sol-tweet.vercel.app/",
     img: Soltweet,
     git: "https://github.com/kaspergff/SolTweet",
