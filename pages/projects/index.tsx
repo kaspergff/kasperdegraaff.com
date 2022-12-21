@@ -2,7 +2,7 @@ import Calculator from "../../public/img/Calculator.png";
 import Course from "../../public/img/Course.png";
 import type { NextPage } from "next";
 import ProjectCard from "../../components/ProjectsCard/ProjectCard";
-import Soltweet from "../../public/img/SolTweet.png";
+import Soltweet from "../../public/img/Soltweet.png";
 import Sudoku from "../../public/img/Sudoku.png";
 
 export type ProjectType = {
