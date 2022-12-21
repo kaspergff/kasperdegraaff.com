@@ -5,7 +5,7 @@ import { ProjectType } from "../../pages/projects";
 
 const ProjectCard: NextPage<ProjectType> = (props) => {
   return (
-    <div className="flex flex-col gap-5 p-2 mx-auto px-4  shadow-lg select-none sm:p-4 max-h-content rounded-2xl sm:flex-row ">
+    <div className="flex flex-col gap-5 p-2 mx-auto  shadow-lg select-none max-h-content rounded-2xl sm:flex-row ">
       <div className="w-52 relative mx-auto rounded-full">
         <Image
           src={props.img}

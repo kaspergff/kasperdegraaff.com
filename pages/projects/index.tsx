@@ -50,9 +50,11 @@ const projects: ProjectType[] = [
 
 const Projects: NextPage<ProjectType[]> = (props) => {
   return (
-    <div className="flex flex-col justify-center items-center gap-3 py-10">
-      <p className="text-xl">On this page you can find some of my projects</p>
-      <p className="text-lg">More to come soon!</p>
+    <div className="flex flex-col justify-center items-center gap-3 py-10 ">
+      <p className="text-xl text-center">
+        On this page you can find some of my projects
+      </p>
+      <p className="text-lg text-center">More to come soon!</p>
       <div className="flex flex-col gap-4">
         {projects.map((project, index) => (
           <ProjectCard key={index} {...project} />
