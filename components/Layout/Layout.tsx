@@ -1,8 +1,7 @@
-import type { NextPage } from "next";
-import Head from "next/head";
-
-import NavBar from "../NavBar/NavBar";
 import Footer from "../Footer/Footer";
+import Head from "next/head";
+import NavBar from "../NavBar/NavBar";
+import type { NextPage } from "next";
 
 const Layout: NextPage = ({ children }) => {
   return (
@@ -14,7 +13,7 @@ const Layout: NextPage = ({ children }) => {
       </Head>
       <div className="bg-white dark:bg-neutral-700 min-h-screen">
         <NavBar />
-        <main className=" bg-white dark:bg-neutral-700 font-mono dark:text-gray-100 dark:drop-shadow">
+        <main className=" bg-white dark:bg-neutral-700 font-mono dark:text-gray-100 dark:drop-shadow ">
           {children}
         </main>
 
