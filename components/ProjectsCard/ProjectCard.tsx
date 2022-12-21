@@ -8,6 +8,7 @@ const ProjectCard: NextPage<ProjectType> = (props) => {
     <div className="flex flex-col gap-5 p-2 mx-auto  shadow-lg select-none max-h-content rounded-2xl sm:flex-row ">
       <div className="w-52 relative mx-auto rounded-full">
         <Image
+          className="rounded-lg"
           src={props.img}
           alt={props.name}
           // layout="fill"
