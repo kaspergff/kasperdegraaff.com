@@ -13,7 +13,7 @@ const Layout: NextPage = ({ children }) => {
       </Head>
       <div className="bg-white dark:bg-neutral-700 min-h-screen">
         <NavBar />
-        <main className=" bg-white dark:bg-neutral-700 font-mono dark:text-gray-100 dark:drop-shadow ">
+        <main className=" bg-white dark:bg-neutral-700 font-sans dark:text-gray-100 dark:drop-shadow ">
           {children}
         </main>
 
